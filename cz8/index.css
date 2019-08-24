@@ -1,0 +1,27 @@
+body {
+    margin: 20px;
+}
+
+.accordion {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.section__header {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.section__header:hover {
+    padding: 8px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.section__content {
+    padding: 10px;
+    background-color: #eee;
+    display: none;
+}
